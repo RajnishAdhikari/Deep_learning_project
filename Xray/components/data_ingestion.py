@@ -7,8 +7,9 @@ from Xray.exception import XRayException
 from Xray.logger import logging
 
 class DataIngestion:
-    def __init__(self):
-        pass
+    
+    def __init__(self, data_ingestion_config: DataIngestionConfig):
+        self.data_ingestion_config = data_ingestion_config
     def get_data_from_s3(self):
         try:
             pass
