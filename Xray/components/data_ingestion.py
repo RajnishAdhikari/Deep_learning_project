@@ -15,3 +15,9 @@ class DataIngestion:
 
         except Exception as e:
             raise XRayException(e,sys)
+        
+    def initiate_data_ingestion(self):
+        try:
+            pass
+        except Exception as e:
+            raise XRayException(e,sys)
