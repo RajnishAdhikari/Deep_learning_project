@@ -10,6 +10,7 @@ dvc
 mlflow
 ipykernel
 pandas
+awscli
 numpy
 seaborn
 pytest==7.1.3
