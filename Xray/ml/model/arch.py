@@ -7,6 +7,8 @@ class Net(nn.Module):
         """
         Creating custom CNN architecture for Image classification
         """
+
+        # here we use super class to do inheritance operation
         super(Net, self).__init__()
 
         self.convolution_block1 = nn.Sequential(
