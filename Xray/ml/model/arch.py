@@ -10,7 +10,7 @@ class Net(nn.Module):
 
         # here we use super class to do inheritance operation
         super(Net, self).__init__()
-
+# this architecture has 9 blocks or 9 convolutional layer 
         self.convolution_block1 = nn.Sequential(
             nn.Conv2d(
                 in_channels=3, out_channels=8, kernel_size=(3, 3), padding=0, bias=True
