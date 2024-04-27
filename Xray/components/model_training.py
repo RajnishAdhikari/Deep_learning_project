@@ -85,7 +85,7 @@ class ModelTrainer:
                 correct += pred.eq(target.view_as(pred)).sum().item()
 
                 processed += len(data)
-
+                # calculating loss and accuracy
                 pbar.set_description(
                     desc=f"Loss={loss.item()} Batch_id={batch_idx} Accuracy={100*correct/processed:0.2f}"
                 )
