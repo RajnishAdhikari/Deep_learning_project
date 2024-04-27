@@ -8,6 +8,8 @@ class DataIngestionArtifact:
 
     test_file_path: str
 
+
+# after training model we save in this folder 
 @dataclass
 class DataTransformationArtifact:
     transformed_train_object: DataLoader
