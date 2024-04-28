@@ -1,9 +1,10 @@
 bentoml
-torchvison
+torchvision==0.14.1
 joblib
 tqdm
 pip-chill
 wincertstore
 awscli
-
+torchsummary
+opencv-python
 -e .
